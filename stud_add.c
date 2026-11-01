@@ -58,8 +58,6 @@ void stud_add(student **head)
 
     newnode->next = NULL;
 
-    /* Insert node at the end */
-
     if(*head == NULL)
     {
         *head = newnode;
