@@ -22,7 +22,6 @@ void stud_del(student **head)
     printf("\nEnter Your Choice: ");
     scanf(" %c", &choice);
 
-    /* Delete using Roll Number */
 
     if(choice == 'R' || choice == 'r')
     {
@@ -34,8 +33,6 @@ void stud_del(student **head)
             return;
         }
     }
-
-    /* Delete using Name */
 
     else if(choice == 'N' || choice == 'n')
     {
@@ -89,7 +86,6 @@ void stud_del(student **head)
         return;
     }
 
-    /* Search and delete node */
 
     temp = *head;
     prev = NULL;
