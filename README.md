@@ -11,8 +11,6 @@ A C-based console application for managing student records efficiently using Sin
 - Save and load records using binary files
 - Automatic roll number management
 
-### Tech Stack
-C | Ubuntu Linux
 
 ### Core Concepts
 Structures • Pointers • Linked Lists • Dynamic Memory Allocation • File Handling • Modular Programming
