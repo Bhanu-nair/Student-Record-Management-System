@@ -3,9 +3,6 @@
 #include <string.h>
 #include "student.h"
 
-
-/* Save all student records */
-
 void stud_save(student *head)
 {
     FILE *fp;
@@ -34,9 +31,6 @@ void stud_save(student *head)
 
     printf("All Records Saved Successfully!\n");
 }
-
-
-/* Load records when program starts */
 
 void stud_load(student **head)
 {
@@ -102,9 +96,6 @@ void stud_load(student **head)
 
     printf("Records Loaded Successfully!\n");
 }
-
-
-/* Free allocated memory */
 
 void free_list(student **head)
 {
