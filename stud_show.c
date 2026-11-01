@@ -57,7 +57,6 @@ char     choice;
 
     printf("\nEnter Your Choice: ");
 scanf(" %c", &choice);
-    /* Sort by Name */
 
     if(choice == 'N' || choice == 'n')
     {
