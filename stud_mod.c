@@ -52,8 +52,6 @@ void stud_mod(student *head)
         }
     }
 
-    /* Search using Name */
-
     else if(choice == 'N' || choice == 'n')
     {
         printf("Enter Student Name: ");
